@@ -6,12 +6,12 @@ const userSchema = new mongoose.Schema(
       required: true,
       min: 3,
       max: 20,
-      qunique: true,
+      unique: true,
     },
     email: {
       type: String,
       required: true,
-      qunique: true,
+      unique: true,
     },
     password: {
       type: String,
